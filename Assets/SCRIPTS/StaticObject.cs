@@ -43,7 +43,9 @@ public class StaticObject : MonoBehaviour
                 jugadorscript.set_poder(3);
                 this.gameObject.SetActive(false);
             }
-            _rigidbody.AddForce(0, 0, jugadorscript.get_poder(), ForceMode.Impulse);
+            Vector3 distancia = this.gameObject.transform.position - jugador.gameObject.transform.position;
+            distancia = distancia.normalized;
+            _rigidbody.AddForce(distancia * jugadorscript.get_poder(), ForceMode.Impulse);
         }
     }
 }

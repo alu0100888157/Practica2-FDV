@@ -70,7 +70,9 @@ public class MovementObject : MonoBehaviour
                 Debug.Log(jugadorscript.get_poder());
                 this.gameObject.SetActive(false);
             }
-            _rigidbody.AddForce(0, 0, 9, ForceMode.Impulse);
+            Vector3 distancia = this.gameObject.transform.position - jugador.gameObject.transform.position;
+            distancia = distancia.normalized;
+            _rigidbody.AddForce(distancia * 4, ForceMode.Impulse);
         }
     }
 }
