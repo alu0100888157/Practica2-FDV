@@ -19,6 +19,6 @@ Cuando colisiona con un objeto móvil se mueven una cantidad igual a la fuerza q
 En cambio, con un objeto estático, se mueve de acuerdo una cantidad proporcional al poder del jugador.
 
 ![https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/practica2_1-%2505d.gif](https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/practica2_1-%2505d.gif)
-![](./Assets/VIDEOS/practica2_3-%2505d)
+![https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/practica2_3-%2505d.gif](https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/practica2_3-%2505d.gif)
 
 Ambos objetos hacen sumar puntos al jugador y cuando colisionan sus dimesiones disminuyen hasta desaparecer.
