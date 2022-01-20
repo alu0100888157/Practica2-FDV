@@ -18,7 +18,7 @@ Cuando colisiona con un objeto móvil se mueven una cantidad igual a la fuerza q
 
 En cambio, con un objeto estático, se mueve de acuerdo una cantidad proporcional al poder del jugador.
 
-![](./Assets/VIDEOS/practica2_1-%05d.gif)
-![](./Assets/VIDEOS/practica2_3-%05d.gif)
+![](./Assets/VIDEOS/practica2_1-%05d)
+![](./Assets/VIDEOS/practica2_3-%05d)
 
 Ambos objetos hacen sumar puntos al jugador y cuando colisionan sus dimesiones disminuyen hasta desaparecer.
