@@ -14,7 +14,7 @@ Como se puede observar hay tres tipos de objetos:
 El jugador que es un asset, el cilindro que es objeto móvil y el cubo que es el estático 
 Cuando colisiona con un objeto móvil se mueven una cantidad igual a la fuerza que ejerce el jugador sobre ellos.
 
-![](./Assets/VIDEOS/Proyecto sin título-%05d.gif)
+![https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/Proyecto%20sin%20t%C3%ADtulo-%2505d.gif](https://github.com/alu0100888157/Practica2-FDV/blob/master/Assets/VIDEOS/Proyecto%20sin%20t%C3%ADtulo-%2505d.gif)
 
 En cambio, con un objeto estático, se mueve de acuerdo una cantidad proporcional al poder del jugador.
 
