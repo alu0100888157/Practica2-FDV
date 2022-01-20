@@ -12,10 +12,13 @@ Cuando el jugador suma puntos, las dimensiones del objeto disminuyen y se atenú
 
 Como se puede observar hay tres tipos de objetos:
 El jugador que es un asset, el cilindro que es objeto móvil y el cubo que es el estático 
-Cuando colisiona con un objeto móvil se mueven una cantida igual a la fuerza que ejerce el jugador sobre ellos.
-![Vídeo 1](./Assets/VIDEOS/Proyecto sin título-%05d.gif)
+Cuando colisiona con un objeto móvil se mueven una cantidad igual a la fuerza que ejerce el jugador sobre ellos.
+
+![](./Assets/VIDEOS/Proyecto sin título-%05d.gif)
+
 En cambio, con un objeto estático, se mueve de acuerdo una cantidad proporcional al poder del jugador.
-![Vídeo 1](./Assets/VIDEOS/practica2_1-%05d.gif)
-![Vídeo 1](./Assets/VIDEOS/practica2_3-%05d.gif)
+
+![](./Assets/VIDEOS/practica2_1-%05d.gif)
+![](./Assets/VIDEOS/practica2_3-%05d.gif)
 
 Ambos objetos hacen sumar puntos al jugador y cuando colisionan sus dimesiones disminuyen hasta desaparecer.
